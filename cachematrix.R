@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # Make a list of functions for caching and working with a matrix.
     #
     # Args:
-    #   x: a matrix to be cached.
+    #   x: a matrix to be cached (for assignment assumed to be invertible).
     #
     # Returns:
     #   A list containing 4 functions for interacting with the cached matrix:
